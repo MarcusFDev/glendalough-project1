@@ -1,3 +1,32 @@
+/* Wildcard selector to override default styles given to the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General Page Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: chartreuse;
+}
+
+/* Main Content */
 main {
-    background-color: blue;
+    background-color: gold;
+    /* Makes this element take up extra space to push the footer element down page */
+    flex: 1 0 auto;
+
+}
+
+/* Footer */
+footer {
+    background-color: cadetblue;
+    padding: 10px;
 }
