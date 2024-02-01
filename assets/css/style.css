@@ -12,9 +12,16 @@ body {
     min-height: 100vh;
 }
 
+a {
+    text-decoration:none;
+    color:#239419;
+}
+
 /* Header */
 header {
-    background-color: chartreuse;
+    background-color: whitesmoke;
+    padding: 0 1rem;
+    position: fixed;
 }
 
 /* Main Content */
