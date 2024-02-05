@@ -17,7 +17,7 @@ body {
 }
 
 .background-image {
-  background-image: url('/workspace/glendalough-project1/Glendalough-background1.webp');
+  background-image: url('../images/Glendalough-background1.webp');
   background-color: #6bbf59;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,7 +30,9 @@ body {
 /* Header */
 header {
   background-color: whitesmoke;
-  position: fixed;
+  position: sticky;
+  top:0;
+  left:0;
   width: 100%;
   z-index: 100;
   font-family: 'Josefin Sans', sans-serif;
@@ -196,6 +198,7 @@ footer {
     display: none;
     z-index: 99;
   }
+
 
   nav ul {
     list-style: none;
