@@ -22,7 +22,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  
+
   /*background-color: rgba(0, 0, 0, 0.5);*/
   /*filter: blur(3px);*/
   height: 100vh;
@@ -32,8 +32,8 @@ body {
 header {
   background-color: whitesmoke;
   position: sticky;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   width: 100%;
   z-index: 100;
   font-family: 'Josefin Sans', sans-serif;
@@ -126,6 +126,24 @@ main {
   flex: 1 0 auto;
 }
 
+/* Gallery.html page */
+#photos img {
+  width: 100%;
+  border-radius: 10px;
+  line-height: 1em;
+}
+
+#photos {
+  column-count: 4;
+  gap: 7px;
+
+}
+
+#gallery-background {
+  background: url(../images/green-wallpaper.webp);
+  background-repeat: repeat;
+}
+
 /* Footer */
 footer {
   background-color: #073b3a;
@@ -171,8 +189,8 @@ footer {
   background-color: #6bbf59;
 }
 
-/* Small screen devices (phones, 425px and below) */
-@media screen and (max-width: 425px) {
+/* Small screen devices (phones, 430px and below) */
+@media screen and (max-width: 430px) {
 
   header {
     display: flex;
@@ -189,9 +207,9 @@ footer {
 
   nav {
     position: fixed;
-    margin-top: 40px;
+    top: 52px;
     left: 0;
-    width: 75%;
+    width: 170px; /*65%*/
     background-color: #073b3a;
     padding: 5px;
     border-radius: 10px;
@@ -215,6 +233,7 @@ footer {
     color: whitesmoke;
     padding: 5px;
     margin: 5px;
+    width: 90%;
     border: 1px solid whitesmoke;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -252,10 +271,16 @@ footer {
   #social-media a span {
     display: none;
   }
+
+  /* Gallery page styling for small screens */
+  #photos {
+    column-count: 1;
+    gap: 7px;
+  }
 }
 
 /* Media Query for 768px and below (tablets, 768px and below) */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width:431px) {
   header {
     display: flex;
     justify-content: space-between;
@@ -271,7 +296,7 @@ footer {
 
   nav {
     position: fixed;
-    top: 53px;
+    top: 52px;
     left: 0;
     width: 150px;
     background-color: #073b3a;
@@ -328,6 +353,12 @@ footer {
 
   .background-image {
     background-position: center;
+  }
+
+  /* Gallery page styling for small screens */
+  #photos {
+    column-count: 2;
+    gap: 7px;
   }
 
   /* Footer sizing for Tablet sized screen */
