@@ -26,6 +26,7 @@ body {
   /*background-color: rgba(0, 0, 0, 0.5);*/
   /*filter: blur(3px);*/
   height: 100vh;
+  z-index:-1;
 }
 
 /* Header */
@@ -83,7 +84,7 @@ nav a:hover {
   background-color: #6bbf59;
 }
 
-/* Class to visually hide the checkbox */
+/* Class visually hides the nav checkbox */
 .hidden-checkbox {
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
@@ -99,7 +100,7 @@ nav a:hover {
   display: none;
 }
 
-/* Class to style the label as a button */
+/* Class styles nav label as button */
 .nav-dropdown-label {
   cursor: pointer;
   padding: 10px;
@@ -126,7 +127,7 @@ main {
   flex: 1 0 auto;
 }
 
-/* Gallery.html page */
+/* Gallery.html page styles */
 #photos img {
   width: 100%;
   border-radius: 10px;
@@ -142,6 +143,16 @@ main {
 #gallery-background {
   background: url(../images/green-wallpaper.webp);
   background-repeat: repeat;
+}
+
+/* Newsletter.html page styles */
+
+.form-section {
+  background-color:whitesmoke;
+  width: 25%;
+  padding: 0px 5px 5px 5px;
+  position:sticky;
+
 }
 
 /* Footer */
