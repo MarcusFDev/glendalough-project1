@@ -26,7 +26,7 @@ body {
   /*background-color: rgba(0, 0, 0, 0.5);*/
   /*filter: blur(3px);*/
   height: 100vh;
-  z-index:-1;
+  z-index: -1;
 }
 
 /* Header */
@@ -148,11 +148,59 @@ main {
 /* Newsletter.html page styles */
 
 .form-section {
-  background-color:whitesmoke;
-  width: 25%;
-  padding: 0px 5px 5px 5px;
-  position:sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10% 0 10%;
+  margin-top: 250px;
+  /*background-color: aquamarine;*/
+}
 
+#newsletter-form {
+  max-width: 400px;
+  /*background-color: #0b6e4f;*/
+  padding: 10px;
+  margin-right: 20px;
+
+}
+
+.newsletter-form>h2 {
+  color: whitesmoke;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  color: whitesmoke;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  padding: 0 5px;
+}
+
+.text-input:hover {
+  border-color: #073b3a;
+}
+
+.subscribe-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+  font-size: 100%;
+  background-color: #0b6e4f;
+  color: whitesmoke;
+}
+
+.subscribe-button:hover {
+  background-color: #6bbf59;
+  color:whitesmoke;
+}
+
+.newsletter-description {
+  width: 60%;
+  /*background-color: #6bbf59;*/
 }
 
 /* Footer */
@@ -220,7 +268,8 @@ footer {
     position: fixed;
     top: 52px;
     left: 0;
-    width: 170px; /*65%*/
+    width: 170px;
+    /*65%*/
     background-color: #073b3a;
     padding: 5px;
     border-radius: 10px;
@@ -288,7 +337,33 @@ footer {
     column-count: 1;
     gap: 7px;
   }
+
+  /* Newsletter page styling for small screens */
+
+  .form-section {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0;
+    padding: 5px;
+  }
+
+  .form-section > h2 {
+    margin-bottom: 10px;
+  }
+  
+
+
+  #newsletter-form {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .newsletter-description {
+    width: 100%;
+    padding-bottom: 20px;
+  }
 }
+
 
 /* Media Query for 768px and below (tablets, 768px and below) */
 @media screen and (max-width: 768px) and (min-width:431px) {
@@ -351,7 +426,7 @@ footer {
     width: 1px;
   }
 
-  /* Style the label as a button for small screens */
+  /* Style the label as a button for tablet sized screens */
   .nav-dropdown-label {
     display: block;
     margin: 10px;
@@ -366,10 +441,26 @@ footer {
     background-position: center;
   }
 
-  /* Gallery page styling for small screens */
+  /* Gallery page styling for tablet sized screens */
   #photos {
     column-count: 2;
     gap: 7px;
+  }
+
+  /* Newsletter page styling for tablet sized screens */
+
+  .form-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #newsletter-form {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .newsletter-description {
+    width: 100%;
   }
 
   /* Footer sizing for Tablet sized screen */
