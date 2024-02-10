@@ -148,14 +148,12 @@ main {
 /* Newsletter.html page styles */
 
 .form-main {
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
 .form-section {
-  
     display: flex;
     justify-content: center;
     align-items: stretch;
@@ -166,13 +164,11 @@ main {
   }
 
   .form-section h3 {
-
     font-size:170%;
     
   }
   
 #newsletter-form {
-  
   max-width: 400px;
   /*background-color: #0b6e4f;*/
   padding: 10px;
@@ -187,7 +183,6 @@ main {
 }
 
 .form-section label {
-
   font-size: 125%;
   font-weight: bold;
   color:#0b6e4f;
@@ -237,13 +232,11 @@ main {
 }
 
 .newsletter-description h3 {
-
   font-size: 200%;
 
 }
 
 .newsletter-description p {
-
   text-align: center;
   margin-top: 10px; 
   max-width: 300px; 
@@ -316,7 +309,6 @@ footer {
     top: 52px;
     left: 0;
     width: 170px;
-    /*65%*/
     background-color: #073b3a;
     padding: 5px;
     border-radius: 10px;
@@ -387,6 +379,10 @@ footer {
 
   /* Newsletter page styling for small screens */
 
+  .form-main {
+    font-size:80%;
+  }
+
   .form-section {
     flex-direction: column;
     text-align: center;
@@ -409,6 +405,7 @@ footer {
     width: 100%;
     padding-bottom: 20px;
   }
+
 }
 
 
@@ -426,6 +423,7 @@ footer {
     margin: 5px;
     font-size: 190%;
   }
+
 
   nav {
     position: fixed;
