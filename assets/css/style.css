@@ -163,6 +163,52 @@ main {
   overflow:hidden
 }
 
+/* Index.html Vistor Centre section styles */
+/* Image sourced from Geoff Calver at (https://www.flickr.com/photos/geoffcalver/3525926496) */
+
+.visitor-section {
+  display: flex;
+  flex-wrap: wrap;
+  background: url('../images/visitor-centre.webp') no-repeat center/cover;
+  font-size: 130%;
+  box-shadow: 0 -5px 2px #073b3a;
+}
+
+.visitor-section div {
+  display:flex;
+  color: #fafafa;
+  background-color: rgba(11, 110, 79, .6);
+  padding: 15px;
+  text-align: center;
+  flex-basis: 200px;
+  flex-grow: 1;
+  border: 2px solid #073b3a;
+}
+
+.visitor-content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.visitor-content h2 {
+  padding-bottom: 20px;
+}
+
+.visitor-content p {
+  padding: 15px;
+}
+
+.visitor-section hr {
+  color:#073b3a;
+  border-style: double;
+}
+
+#reminder {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /* Index.html Google Map styles */
 
 #map-section {
