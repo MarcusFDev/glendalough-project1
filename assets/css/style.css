@@ -472,7 +472,7 @@ footer {
     display: none;
   }
 
-  /* Home Page Introduction */
+  /* Home Page Introduction styling for small screens */
 
   .content-background {
     display: flex;
@@ -628,6 +628,39 @@ footer {
     background-position: center;
   }
 
+  /* Home Page Introduction styling for tablet sized screens */
+
+  .content-background {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  .homepage-description {
+    padding: 20px;
+    border: 5px solid #0b6e4f;
+    border-radius: 10px;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(211, 211, 211, .6);
+  }
+
+  .homepage-description h2 {
+    font-size: 180%;
+  }
+
+  .homepage-description p {
+    font-size: 120%;
+    padding-top: 10px;
+  }
+
+  #description-image {
+    justify-content:flex-end;
+    width: 100%;
+  }
+
   /* Gallery page styling for tablet sized screens */
   #photos {
     column-count: 2;
@@ -670,4 +703,40 @@ footer {
   }
 
 
+}
+
+@media screen and (max-width: 1640px) and (min-width:769px){
+  
+  /* Home Page Introduction styling for tablet sized screens */
+
+  .content-background {
+    display: flex;
+    margin: 10px;
+  }
+
+  .homepage-description {
+    padding: 20px;
+    border: 5px solid #0b6e4f;
+    border-radius: 10px;
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(211, 211, 211, .6);
+  }
+
+  .homepage-description h2 {
+    font-size: 270%;
+    padding-bottom: 15px;
+  }
+
+  .homepage-description p {
+    font-size: 140%;
+    padding-top: 10px;
+  }
+
+  #description-image {
+    justify-content:flex-end;
+    width: 100%;
+  }
 }
