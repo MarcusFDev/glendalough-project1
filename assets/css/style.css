@@ -226,6 +226,62 @@ main {
   box-shadow: 0 -5px 2px #073b3a;
 }
 
+/* Visit-Us.html page styles */
+.visit-us-section-right {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #073b3a;
+  font-size:20px;
+  margin: 20px 70px;
+}
+
+.visit-us-section-left {
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: space-between;
+  border: 2px solid #073b3a;
+  font-size:20px;
+  margin: 20px 70px;
+}
+
+.visit-us-text {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  flex: 1;
+  background-color: lightgray;
+  border-top-width: 2px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-style: solid;
+  border-color: #073b3a;
+}
+
+.visit-us-text h2 {
+  font-size: 250%;
+  color: #0b6e4f;
+  font-weight: bold;
+}
+
+.visit-us-text p {
+  font-size: 150%;
+}
+
+.visit-us-text a {
+  color:#0b6e4f;
+}
+
+.visit-us-img {
+  display:flex;
+  background-color:whitesmoke;
+  padding: 10px;
+  border: 2px solid #073b3a;
+
+}
+
+
 /* Gallery.html page styles */
 #photos img {
   width: 100%;
@@ -657,7 +713,7 @@ footer {
   }
 
   #description-image {
-    justify-content:flex-end;
+    justify-content: flex-end;
     width: 100%;
   }
 
@@ -705,8 +761,8 @@ footer {
 
 }
 
-@media screen and (max-width: 1640px) and (min-width:769px){
-  
+@media screen and (max-width: 1640px) and (min-width:769px) {
+
   /* Home Page Introduction styling for tablet sized screens */
 
   .content-background {
@@ -736,7 +792,7 @@ footer {
   }
 
   #description-image {
-    justify-content:flex-end;
+    justify-content: flex-end;
     width: 100%;
   }
 }
