@@ -102,13 +102,13 @@ nav a:hover {
   margin: 0;
 }
 
+/* Class highlights nav button */
 .active {
   background-color: #6bbf59;
 }
 
 /* Main Content */
 main {
-
   /* Makes this element take up extra space to push the footer element down page */
   flex: 1 0 auto;
 }
@@ -122,7 +122,7 @@ main {
   z-index: -1;
 }
 
-/* Home Page Introduction */
+/* Index.html Home Page Introduction */
 
 .content-background {
   display: flex;
@@ -164,7 +164,6 @@ main {
 
 /* Index.html Vistor Centre section styles */
 /* Image sourced from Geoff Calver at (https://www.flickr.com/photos/geoffcalver/3525926496) */
-
 .visitor-section {
   display: flex;
   flex-wrap: wrap;
@@ -213,13 +212,10 @@ main {
 }
 
 /* Index.html Google Map styles */
-
 #map-section {
-  /*position: absolute;*/
   bottom: 0;
   width: 100%;
   height: 350px;
-
 }
 
 #map {
@@ -280,9 +276,7 @@ main {
   background-color: whitesmoke;
   padding: 10px;
   border: 2px solid #073b3a;
-
 }
-
 
 /* Gallery.html page styles */
 #photos img {
@@ -294,7 +288,6 @@ main {
 #photos {
   column-count: 4;
   gap: 7px;
-
 }
 
 #gallery-background {
@@ -303,12 +296,10 @@ main {
 }
 
 /* Newsletter.html page styles */
-
 .form-main {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
 }
 
 .form-section {
@@ -319,21 +310,17 @@ main {
   border: 5px solid #073b3a;
   border-radius: 10px;
   background-color: whitesmoke;
-
 }
 
 .form-section h3 {
   font-size: 170%;
-
 }
 
 #newsletter-form {
   max-width: 400px;
-  /*background-color: #0b6e4f;*/
   padding: 10px;
   margin-right: 20px;
   font-size: 150%;
-
 }
 
 .newsletter-form h2 {
@@ -348,7 +335,6 @@ main {
 }
 
 .text-input {
-  /*background: transparent;*/
   color: black;
   width: 100%;
   height: 50px;
@@ -357,7 +343,6 @@ main {
   border-radius: 2px;
   padding: 0 5px;
   font-size: 100%;
-
 }
 
 .text-input:hover {
@@ -399,11 +384,9 @@ main {
   text-align: center;
   margin-top: 10px;
   max-width: 300px;
-
 }
 
 /* 404.html styles */
-
 #error-page-content {
   display: flex;
   align-items: center;
@@ -501,7 +484,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     border-bottom: 5px solid #073b3a;
-
   }
 
   header h1 {
@@ -521,7 +503,6 @@ footer {
     display: none;
     z-index: 99;
   }
-
 
   nav ul {
     list-style: none;
@@ -543,7 +524,6 @@ footer {
     transition: background-color 0.3s ease;
     display: block;
   }
-
 
   #nav-dropdown:checked~nav {
     display: block;
@@ -577,7 +557,6 @@ footer {
   }
 
   /* Home Page Introduction styling for small screens */
-
   .content-background {
     display: flex;
     flex-direction: column;
@@ -609,13 +588,11 @@ footer {
   }
 
   /* Visitor Centre times styling for small screens */
-
   .visitor-section div {
     flex-direction: column;
   }
 
   /* Visit Us page styling for small screens */
-
   .visit-us-section-right,
   .visit-us-section-left {
     display: flex;
@@ -634,18 +611,15 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 5px;
-
   }
 
   /* Gallery page styling for small screens */
-
   #photos {
     column-count: 1;
     gap: 7px;
   }
 
   /* Newsletter page styling for small screens */
-
   .form-main {
     font-size: 80%;
     margin-top: 30px;
@@ -674,7 +648,6 @@ footer {
   }
 
   /* 404.html styling for small screens */
-
   #error-page-content {
     font-size: 130%;
     margin: 45px auto;
@@ -683,7 +656,6 @@ footer {
 
 }
 
-
 /* Media Query for 768px and below (tablets, 768px and below) */
 @media screen and (max-width: 768px) and (min-width:431px) {
   header {
@@ -691,14 +663,12 @@ footer {
     justify-content: space-between;
     align-items: center;
     border-bottom: 5px solid #073b3a;
-
   }
 
   header h1 {
     margin: 5px;
     font-size: 190%;
   }
-
 
   nav {
     position: fixed;
@@ -762,7 +732,6 @@ footer {
   }
 
   /* Home Page Introduction styling for tablet sized screens */
-
   .content-background {
     display: flex;
     flex-direction: column;
@@ -795,7 +764,6 @@ footer {
   }
 
   /* Visit Us page styling for tablet sized screens */
-
   .visit-us-section-right,
   .visit-us-section-left {
     display: flex;
@@ -814,7 +782,6 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 5px;
-
   }
 
   /* Gallery page styling for tablet sized screens */
@@ -824,7 +791,6 @@ footer {
   }
 
   /* Newsletter page styling for tablet sized screens */
-
   .form-main {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -859,13 +825,11 @@ footer {
   }
 
   /* 404.html styling for Tablet sized screens */
-
   #error-page-content {
     font-size: 140%;
     margin: 45px auto;
     width: 70%;
   }
-
 
 }
 
@@ -873,7 +837,6 @@ footer {
 @media screen and (max-width: 1640px) and (min-width:769px) {
 
   /* Home Page Introduction styling for laptop sized screens */
-
   .content-background {
     display: flex;
     margin: 10px;
@@ -906,7 +869,6 @@ footer {
   }
 
   /* Visit Us page styling for laptop sized screens */
-
   .visit-us-section-right,
   .visit-us-section-left {
     display: flex;
@@ -925,11 +887,9 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 5px;
-
   }
 
   /* 404.html styling for Laptop sized screens */
-
   #error-page-content {
     font-size: 150%;
     margin: 45px auto;
