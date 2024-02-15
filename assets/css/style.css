@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Josefin Sans", "Open Sans", sans-serif;
 }
 
 /* Header */
@@ -24,7 +24,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 100;
-  font-family: 'Josefin Sans', sans-serif;
+  
 
 }
 
