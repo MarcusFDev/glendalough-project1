@@ -24,7 +24,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 100;
-  
+
 }
 
 header h1 {
@@ -409,26 +409,26 @@ main {
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  font-size:190%;
-  background-color:whitesmoke;
-  border:4px solid #073b3a;
-  border-radius:20px;
-  margin:300px auto;
-  width:35%;
-  height:400px;
-  padding:25px;
-} 
+  font-size: 190%;
+  background-color: whitesmoke;
+  border: 4px solid #073b3a;
+  border-radius: 20px;
+  margin: 300px auto;
+  width: 35%;
+  height: 400px;
+  padding: 25px;
+}
 
 .support-message {
-  font-size:70%;
+  font-size: 70%;
 }
 
 .support-message span {
-  color:#073b3a;
+  color: #073b3a;
 }
 
 #error-page-content h2 {
-  color:#0b6e4f;
+  color: #0b6e4f;
 }
 
 #error-page-content a {
@@ -626,7 +626,7 @@ footer {
   }
 
   .visit-us-text {
-    display:flex;
+    display: flex;
     padding: 10px;
   }
 
@@ -634,7 +634,7 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 5px;
-    
+
   }
 
   /* Gallery page styling for small screens */
@@ -663,8 +663,6 @@ footer {
     margin-bottom: 10px;
   }
 
-
-
   #newsletter-form {
     margin-right: 0;
     margin-bottom: 20px;
@@ -673,6 +671,14 @@ footer {
   .newsletter-description {
     width: 100%;
     padding-bottom: 20px;
+  }
+
+  /* 404.html styling for small screens */
+
+  #error-page-content {
+    font-size: 130%;
+    margin: 45px auto;
+    width: 95%;
   }
 
 }
@@ -788,28 +794,28 @@ footer {
     width: 100%;
   }
 
-    /* Visit Us page styling for tablet sized screens */
+  /* Visit Us page styling for tablet sized screens */
 
-    .visit-us-section-right,
-    .visit-us-section-left {
-      display: flex;
-      flex-direction: column;
-      margin: 5px auto;
-      font-size: 80%;
-      width: 100%;
-    }
-  
-    .visit-us-text {
-      display:flex;
-      padding: 10px;
-    }
-  
-    .visit-us-img {
-      display: flex;
-      flex-direction: column;
-      padding: 5px;
-      
-    }
+  .visit-us-section-right,
+  .visit-us-section-left {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    font-size: 80%;
+    width: 100%;
+  }
+
+  .visit-us-text {
+    display: flex;
+    padding: 10px;
+  }
+
+  .visit-us-img {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+  }
 
   /* Gallery page styling for tablet sized screens */
   #photos {
@@ -852,8 +858,17 @@ footer {
     padding: 5px;
   }
 
+  /* 404.html styling for Tablet sized screens */
+
+  #error-page-content {
+    font-size: 140%;
+    margin: 45px auto;
+    width: 70%;
+  }
+
 
 }
+
 /* Media Query for 1640px and below (laptops, 1640px and below) */
 @media screen and (max-width: 1640px) and (min-width:769px) {
 
@@ -890,26 +905,34 @@ footer {
     width: 100%;
   }
 
-    /* Visit Us page styling for laptop sized screens */
+  /* Visit Us page styling for laptop sized screens */
 
-    .visit-us-section-right,
-    .visit-us-section-left {
-      display: flex;
-      flex-direction: column;
-      margin: 5px auto;
-      font-size: 80%;
-      width: 100%;
-    }
-  
-    .visit-us-text {
-      display:flex;
-      padding: 10px;
-    }
-  
-    .visit-us-img {
-      display: flex;
-      flex-direction: column;
-      padding: 5px;
-      
-    }
+  .visit-us-section-right,
+  .visit-us-section-left {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    font-size: 80%;
+    width: 100%;
+  }
+
+  .visit-us-text {
+    display: flex;
+    padding: 10px;
+  }
+
+  .visit-us-img {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+  }
+
+  /* 404.html styling for Laptop sized screens */
+
+  #error-page-content {
+    font-size: 150%;
+    margin: 45px auto;
+    width: 60%;
+  }
 }
