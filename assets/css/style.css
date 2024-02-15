@@ -231,21 +231,21 @@ main {
   display: flex;
   justify-content: space-between;
   border: 2px solid #073b3a;
-  font-size:20px;
+  font-size: 20px;
   margin: 20px 70px;
 }
 
 .visit-us-section-left {
   display: flex;
-  flex-direction:row-reverse;
+  flex-direction: row-reverse;
   justify-content: space-between;
   border: 2px solid #073b3a;
-  font-size:20px;
+  font-size: 20px;
   margin: 20px 70px;
 }
 
 .visit-us-text {
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
@@ -270,12 +270,12 @@ main {
 }
 
 .visit-us-text a {
-  color:#0b6e4f;
+  color: #0b6e4f;
 }
 
 .visit-us-img {
-  display:flex;
-  background-color:whitesmoke;
+  display: flex;
+  background-color: whitesmoke;
   padding: 10px;
   border: 2px solid #073b3a;
 
@@ -564,6 +564,30 @@ footer {
 
   .visitor-section div {
     flex-direction: column;
+  }
+
+  /* Visit Us page styling for small screens */
+
+  .visit-us-section-right,
+  .visit-us-section-left {
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+    font-size: 80%;
+    width: 100%;
+  }
+
+  .visit-us-text {
+    display:flex;
+    padding: 10px;
+  }
+
+  .visit-us-img {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+  
   }
 
   /* Gallery page styling for small screens */
