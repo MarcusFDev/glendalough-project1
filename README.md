@@ -171,3 +171,64 @@ Wireframes:
 - 404 Error page is responsive to viewport and is readable and accessible to all devices.
 
 ![Picture of 404 Error page](assets/images/error-readme-image.webp)
+
+## Feature Ideas
+
+### Site Content
+
+- Add a Contact Support form to replace email used in 404.html page.
+- Add a Transport page for users to plan travelling to Glendalough with more clarity.
+- Source more Pictures to be added to the Gallery.
+
+### Site Design
+
+- Change Home page Introduction section and include animations.
+- Change Visit Us section to include animations that match Home page.
+- Redesign Gallery page implementing a Header and the ability for the user to click on pictures, making them pop out with a title and a description of what they are with fun facts about it.
+- Implement more site graphics to compliment the color scheme, texturing and patterns etc.
+
+# Technology Used
+
+## Languages
+
+- [HTML](view-source:https://5500-marcusfdev-glendaloughp-ixylyuhio5v.ws-eu108.gitpod.io/index.html) 
+    - Page markup.
+- [CSS](https://5500-marcusfdev-glendaloughp-ixylyuhio5v.ws-eu108.gitpod.io/assets/css/style.css)
+    - Page styling.
+
+## Libraries
+
+- [Google Fonts](https://fonts.google.com)
+    - Font Styles.
+- [Font Awesome](https://fontawesome.com/search)
+    - Used for site icons.
+
+## Platforms
+
+- [Github](https://github.com/MarcusFDev/glendalough-project1?tab=readme-ov-file)
+    - Storing code remotely and project deployment.
+- [Gitpod](https://www.gitpod.io)
+    - IDE for project creation and development.
+- [Replit](https://replit.com)
+    - Used to test and develop CSS styling in the beginning of the project's creation due to the webview on Gitpod updating far too slowly. Caused unexpected large commits in the beginning, found better solution within Gitpod afterwards.
+
+## Other Tools
+
+- [Favicon Generator](https://www.favicon-generator.org)
+    - Tool used to create Website Favicon.
+- [Coolers](https://coolors.co)
+    - Tool used to create palette image.
+- [Am I Responsive?](https://ui.dev/amiresponsive)
+    - Tool used to create multiple device image.
+- [FreeConvert](https://www.freeconvert.com)
+    - Tool used to change all images to .webp file types.
+
+# Testing
+
+## Methods
+
+### Validation
+
+- HTML pages all have been validated with the [W3C HTML5 Validator](https://validator.w3.org/nu/#textarea) tool.
+- All CSS code has been validated with the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) tool.
+
