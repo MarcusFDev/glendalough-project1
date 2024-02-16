@@ -6,11 +6,61 @@ The Glendalough Valley site provides relevant information, times and pictures al
 
 ---
 ![Website Displayed on all devices](assets/images/responsive-website-displays.webp)
+
 # Table of Contents
 
-1. 
+1. [UX](#ux)
+   - [Goals](#goals)
+     - [Visitor Goals](#visitor-goals)
+     - [Business](#buisness-goals)
+     - [User Stories](#user-stories)
+   - [Visual Design](#visual-design)
+     - [Wireframes](#wireframes)
+     - [Fonts](#fonts)
+     - [Icons](#icons)
+     - [Colors](#colors)
+     - [Gallery Background](#gallery-background)
+
+2. [Features](#features)
+   - [Page Elements](#page-elements)
+     - [All Web Pages](#all-web-pages)
+     - [Header & Navigational Bar](#header--navigation-bar)
+     - [Footer](#footer)
+     - [Index Page](#index-page)
+     - [Visit Us Page](#visit-us-page)
+     - [Gallery Page](#gallery-page)
+     - [Newsletter Page](#newsletter-page)
+   - [Additional Site Features](#additional-site-features)
+     - [404 Error Page](#404-error-page)
+   - [Feature Ideas](#feature-ideas)
+     - [Site Content](#site-content)
+     - [Site Design](#site-design)
+
+3. [Technology Used](#technology-used)
+   - [Languages](#languages)
+   - [Libraries](#libraries)
+   - [Platforms](#platforms)
+   - [Other Tools](#other-tools)
+
+4. [Testing](#testing)
+   - [Methods](#methods)
+     - [Validation](#validation)
+     - [General Testing](#general-testing)
+   - [Bugs](#bugs)
+     - [Known Bugs](#known-bugs)
+     - [Fixed Bugs](#fixed-bugs)
+
+5. [Deployment](#deployment)
+   - [Github Deployment](#github-deployment)
+     - [Github Preparation](#github-preparation)
+     - [Github Instructions](#github-instructions)
+
+6. [Credits and Contact](#credits-and-contact)
+   - [Credits](#credits)
+   - [Contact](#contact)
 
 ---
+
 # UX
 
 ## Goals
