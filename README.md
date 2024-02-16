@@ -1,110 +1,89 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Glendalough Valley
 
-Welcome Marcus F,
+[Glendalough Valley](https://marcusfdev.github.io/glendalough-project1/index.html) has been designed as a information guide about a very popular tourist destination in Ireland. It's goal is to interest and attract people to come visit, and  to provide tourists of the park with all the nessasry information they may need to plan their day accordingly in a clear, concise and visually appealing design on every device for all users.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The Glendalough Valley site provides relevant information, times and pictures along with ways for users to stay connected and return to the site.
 
 ---
+![Website Displayed on all devices](assets/images/responsive-website-displays.webp)
+# Table of Contents
 
-Happy coding!
+1. 
+
+---
+# UX
+
+## Goals
+
+### Visitor Goals
+
+The target audience for Glendalough Valley are:
+
+- Visitors that want to come to Glendalough National park.
+- Visitors that want to learn more about the park.
+- Visitors that would like to stay updated on any park developments.
+- Visitors who enjoy hiking and excerise.
+- Visitors who love nature and the natural enviroment.
+
+The User goals are:
+
+- To figure out what Glendalough is.
+- To find valuable information on Glendalough.
+- To discover why they would want to visit there.
+- To find out what there is to do at the park.
+- To keep notified of the ongoings of Glendalough.
+
+The Glendalough Valley site fills these goals by:
+
+- Providing an immediate explaination of Glendalough.
+- Providing visitor centre times & admission prices.
+- Providing a Google map of Glendalough's location.
+- Providing a webpage covering things a visitor can do there.
+- Providing beauitful images of the park and wildlife in a gallery.
+- Providing social media links for other park outlets.
+- Providing a newsletter users can subscribe to for updates.
+
+### Buisness Goals
+
+The Buisness Goals for Glendalough Valley are:
+
+- Gain subscribers to the newsletter.
+- Interest visitors to coming to Glendalough.
+- Gain more traffic to other site social media outlets.
+- Interest visitors in engaging with different activities in the park.
+
+### User Stories
+
+1. As a user looking for new places to explore, I expect the site to excourage me to go there.
+2. I expect the website to be clear and not confusing to navigate.
+3. As a user I expect to be able to use the website while away from home.
+4. If there is any payments or timings I should be aware of, I expect to read about it on the site.
+5. I would like to hear about any important updates regarding Glendalough so I can plan ahead.
+6. As a user I want to know all the best things I can do there if I go.
+7. As a person using the site I expect to know where I can get food nearby.
+
+## Visual Design
+
+### Wireframes
+
+Wireframes:
+
+### Fonts
+![Website Font example](assets/images/font-picture.webp)
+- The primary font used on the website was [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans?query=josefin+sans). This font was chosen as the main font because it gives the website a 'Celtic' aesthetic which suits a very old and history rich region in Ireland. Practically, this font is easy to read on all devices and is not as harsh on the eyes to read as other fonts with a similar theme. This font styles well as headings and large sections of text which allowed for a universal use of the font across all text on the site. This was very important as this website is designed to be accessible and attractive to all users of the site. 
+- The secondary font for the website [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans) was chosen because of it's easy readability for large amounts of text. It is both playful and inviting to all users, providing a welcoming and friendly feeling which is reflective of Glendalough itself with it's wonderful nature and beauty.
+
+### Icons
+![Website Icon example](assets/images/font-image-example.webp)
+- Icons used throughout the website were taken from the [Font Awesome](https://fontawesome.com/search) icon library. They are utilized in the `<i>` tag.
+- Icons are used in the Navigation Bar & Footer as well as other elements across the website such as the 404.html page. They were used to create a more visually appealing site. Appropriate use of icons was done to also visually help users navigate the webpages.
+
+### Colors
+![Website Color palette](assets/images/project1-palette-resized.webp)
+- When designing the website, matching and complimenting colors needed to be used to have unified theme that suited the project. Glendalough is part of a National Park, people go there to experience nature. It is also by extension associated with Ireland's beauty. So finding colors that best reflected this was crucial. It was decided that three different shades of green would be the vibrant colors utilized.
+- The darkest green on the palette, Midnight Green or #073B3A, was used as borders and to highlight structure as it stands out on the page quite well. 
+- The next green that was chosen was Dartmouth Green or #0B6E4F. This Green was utilized as the Title and text headings. It stands out from the Light Gray and White Smoke colors present, but not too 'strong' by comparison to Midnight Green used for the borders. 
+- The lightest green, Emerald or #21D375 was used as a highlight color for links/buttons on the webpage. It stands out for it's light and eye catching brightness, but if used too much could be considered too bright. It however keeps to the nature theme of the website and is perfect for highlights to gain the users attention. 
+- The website's primary colors were chosen as shades of green so finding a suitable color to match and balance this out was required. The use of Whitesmoke or #F5F5F5 was chosen as a color that has a soft contrast to the greens prevalent on the site. It is not as harsh as standard white and was deemed more suitable. It is used quite often to contrast the greens, sometimes as font coloring. 
+- Light Gray or #D3D3D3 was used as a even softer contrast to the greens. It is used as background colors for large amounts of text for ease of reading while also making the vibrant colors around it 'pop' out more to the user. 
+- Finally, default Black font color was otherwise used as the main text color. It stands out from the light gray around it, directs attention to itself but not harsh with the contrast around it for the user to read.
