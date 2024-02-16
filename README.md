@@ -88,6 +88,11 @@ Wireframes:
 - Light Gray or #D3D3D3 was used as a even softer contrast to the greens. It is used as background colors for large amounts of text for ease of reading while also making the vibrant colors around it 'pop' out more to the user. 
 - Finally, default Black font color was otherwise used as the main text color. It stands out from the light gray around it, directs attention to itself but not harsh with the contrast around it for the user to read.
 
+### Gallery background
+![Gallery Page background](assets/images/green-wallpaper.webp)
+- When creating the Gallery page, having a background that provided color but also texture was the goal. During the Gallery's creation, testing using images as graphics to enhance the standard color palette was being worked on. Soon later it was decided that avoiding attempting to achieve this across the entire website for this project due to conscious time constraints was best. However using it here was still possible. 
+- Finding the image online, it was edited using Windows photo tools until the coloring matched the style that was needed.
+- Using `<background-repeat:repeat;>` on the image it created a repeating style across the back of the page which filled the spacing between the gallery images well. 
 ---
 # Features
 
