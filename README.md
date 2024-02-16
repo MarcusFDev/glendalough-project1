@@ -74,7 +74,7 @@ Wireframes:
 - The secondary font for the website [Open Sans](https://fonts.google.com/specimen/Open+Sans?query=open+sans) was chosen because of it's easy readability for large amounts of text. It is both playful and inviting to all users, providing a welcoming and friendly feeling which is reflective of Glendalough itself with it's wonderful nature and beauty.
 
 ### Icons
-![Website Icon example](assets/images/font-image-example.webp)
+![Website Icon example](assets/images/footer-readme-image-2.webp)
 - Icons used throughout the website were taken from the [Font Awesome](https://fontawesome.com/search) icon library. They are utilized in the `<i>` tag.
 - Icons are used in the Navigation Bar & Footer as well as other elements across the website such as the 404.html page. They were used to create a more visually appealing site. Appropriate use of icons was done to also visually help users navigate the webpages.
 
@@ -100,14 +100,65 @@ Wireframes:
 - The Header & Navigational bar is located on every page of the website. It was designed to be clear a simple with button links to each webpage.
 - The Header itself is a link back to the Home page when clicked.
 - Each button hightlights when hovered over with a mouse & the page the user is on is indicated by the constant highlighted button on the Navbar.
-- It is responsive to all devices.
+- It is responsive to the device viewport.
 
-![Header and Navigational Bar image](assets/images/navbar-readme-image-2.webp)
-
-- Navigation Bar becomes hidden when viewport shrinks, becomes a dropdown button for users on Phones & Tablets to conserve screen space. 
+![Header and Navigational Bar image](assets/images/navbar-readme-image-2.webp) 
 
 ![Header and Navigational Bar dropdown image](assets/images/navbar-readme-image-3.webp)
 
+- Navigation Bar becomes hidden when viewport shrinks, becomes a dropdown button for users on Phones & Tablets to conserve screen space.
 - The dropdown menu appears below the button when pressed.
 
 ### Footer
+![Picture of Footer](assets/images/footer-readme-image-1.webp)
+- The Footer is located on every page of the website. It is designed to match the Header & Navigation Bar. It's purpose is to provide the user with Social media links to other site outlets.
+- Each link in the footer opens up in a different tab for better user experience.
+- The Footer was styled with inspiration from the ["Love Running"](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/7525117e5cd144daa2a7b0c57843bbee/) project by Code Institute. The code was then customized for the Glendalough Valley website, adding buttons and a highlight feature.
+- When hovering over a button with a mouse in the Footer, it highlights the icon. This is done for aesthetic purposes giving the user more interaction on the site.
+
+![Picture of Footer](assets/images/footer-readme-image-2.webp)
+- The Footer is responsive to viewports. If on a Phone & Tablet device, the text of the link is removed providing more room to the icon buttons and conserving more screen space.
+
+### Index Page
+
+- First section containing two `<div>` with website introduction providing explaination of site and historical information and picture of Glendalough.
+- The `<div>` containing the Image of Glendalough is removed on small screen devices.
+- Second section provides information on visit centre times & admission fees. Has a image placed in the background of visitor centre.
+- Page background image of Glendalough lake fixed and blurred for styling.
+- This page is responsive to viewport and is readable and accessible to all devices.
+
+![Picture of site Google Map](assets/images/map-readme-image.webp)
+- A Google Maps at the bottom of the page implemented using a `<iframe>` element to provide directions to Glendalough. 
+
+### Visit Us Page
+
+- Page contains 7 `<section>` elements providing both a picture a description of things visitors can do at Glendalough.
+- Images and description alternate placement using `<flex-direction: row-reverse;>`. 
+- Visit Us page is responsive to viewport and is readable and accessible to all devices.
+
+![Picture of Visit us section](assets/images/visitus-section-readme.webp)
+
+- Final section contains a description of local restaurant and a link to their website utilizing an `<a>` element.
+
+### Gallery Page
+
+- Purpose is to provide users with an image showcase of sites to see at Glendalough.
+- Code inspired and edited from Code Institute's ["Love Running"](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+2023_Q2/courseware/e805068059af42af87681032aa64053f/391954f5ae8547e180a539c0d51e063c/).
+- Background image used as pattern and set to `<background-repeat: repeat;>` providing more design to the page.
+- Page responds to viewport size and adjusts `<column-count>` accordingly. 
+- Pictures sourced from the [Glendalough.ie](https://glendalough.ie/gallery/) Official Website by authors John Griffin Photography & Michael Delahunty.
+
+![Picture of Gallery page](assets/images/gallery-readme-image.webp)
+
+### Newsletter Page
+
+- Purpose is to provide site users a way to stay connected with the site and Glendalough. Users can subscribe to a newletter they will receive into their inbox of the email they subscribed with.
+- Newsletter requires users to fill in all details for a successful submission.
+- Can detect if a user typed a invalid email address.
+- Newsletter is responsive to viewport and is readable and accessible to all devices.
+
+![Picture of Form page](assets/images/newsletter-readme-image.webp)
+
+## Additional Site Features
+
+### 404 Error Page
