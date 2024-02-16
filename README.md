@@ -191,9 +191,9 @@ Wireframes:
 
 ## Languages
 
-- [HTML](view-source:https://5500-marcusfdev-glendaloughp-ixylyuhio5v.ws-eu108.gitpod.io/index.html) 
+- [HTML](https://github.com/MarcusFDev/glendalough-project1/blob/main/index.html)
     - Page markup.
-- [CSS](https://5500-marcusfdev-glendaloughp-ixylyuhio5v.ws-eu108.gitpod.io/assets/css/style.css)
+- [CSS](https://github.com/MarcusFDev/glendalough-project1/blob/main/assets/css/style.css)
     - Page styling.
 
 ## Libraries
@@ -231,4 +231,76 @@ Wireframes:
 
 - HTML pages all have been validated with the [W3C HTML5 Validator](https://validator.w3.org/nu/#textarea) tool.
 - All CSS code has been validated with the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator) tool.
+- Accessibility has been tested using developer tools utilizing lighthouse.
 
+![Accessibility Rating image](assets/images/accessibility-readme-image.webp)
+
+### General Testing
+
+- After every change that was made, everything was prompty tested to check for change.
+- Newsletter form will not submit without correct information.
+- All External links work and open in seperate tabs.
+- All internal links work and send to their respective pages.
+- Custom 404 Error page works correctly.
+- Any backup features added were tested and work as intended. 
+- The website appears to function correctly in different browsers: Chrome, OperaGX, Microsoft Edge.
+- Using Chrome Developer tools, site responsiveness was tested for all major device sizes including the Galaxy Fold.
+
+## Bugs
+
+### Known Bugs
+
+- Google Map has issue with loading API directly resulting in occasional suboptimal performance from the map.
+- Home Page description text begins to go out of box under a very specific viewport width range.
+- Gallery page background image does not cover all the screen under a very specific viewport width range.
+- Newsletter page Navigation drop down menu appears slightly too high at viewports widths of 320px or less.
+
+### Fixed Bugs
+
+- Resolved an issue where the background image would blur the whole content in the `<main>` element. Placed image in `<img>` instead and classed it accordingly.
+- Resolved an issue that caused the images for the Visit Us page to distort the `<div>` sizes. Changed all images on that page to smaller and unified width ratio.
+- Resolved an issue where accessibility for the map was inproper code. Gave the Google Map section a `<h2>` title element. 
+- Resolved the following issue that caused the google map title to appear on the site. Gave it a `<display:none;>` class.
+- Resolved an issue causing the 404 error page message to not sit center of the screen using margin-left. Changed the property to margin and added auto.
+
+# Deployment
+
+## Github Deployment
+
+### Github Preparation
+
+Requirements:
+
+- You need a GitHub account.
+
+### Github Instructions
+
+1. Log into your Github account and naviagte to this link to the project repository: https://github.com/MarcusFDev/glendalough-project1.
+2. You can choose to create your own repository and copy or clone the project code.
+3. Go to the Settings page of the repository.
+4. Under the Code and automation section scroll down and click on Pages.
+5. Select the Master Branch as the source and Confirm the selection.
+6. Wait a few minutes and the site should be live for viewing. See my own [right here.](https://marcusfdev.github.io/glendalough-project1/index.html)
+
+## Credits and Contact
+
+### Credits
+
+Images were sourced by various sources throughout the project so here is a list:
+
+- [Gallery Images](https://glendalough.ie/gallery/) by John Griffin Photography & Michael Delahunty.
+- [Home, Visit Us & 404 page background](https://www.bryanhanna.com/shop/glendalough/) by Bryan Hanna.
+- [Boardwalk image](https://commons.m.wikimedia.org/wiki/File:Boardwalk_above_the_Lower_Lake,_Glendalough_-_geograph.org.uk_-_4579298.jpg) by Jonathan Thacker.
+- [Spincs Mountain & Miner's Village](https://www.theirishroadtrip.com/the-spinc-glendalough/) by The Irish Road Trip.
+- [Upperlake Swim](https://www.thetimes.co.uk/article/the-best-25-spots-in-ireland-for-a-swim-9ctdstsnm) by The Times.
+- [Picnic Tables](https://www.lazydays.ie/visit-glendalough/) by Lazy Days.
+- [Wicklow Heather](https://www.opentable.com/r/the-wicklow-heather-glendalough-2) by Open Table.
+- [Newsletter page background](https://connemaramarble.com/inspirational-glendalough/glendalough-image/) by Connermara Marble.
+
+Code that was taken and edited accordingly:
+
+- Original Footer & Gallery code by [Code Institute](https://codeinstitute.net/ie/).
+
+### Contact
+
+Please feel free to reach out if you have any questions. Contact me via my email at marcusf.dev@gmail.com
