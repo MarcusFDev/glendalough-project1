@@ -24,7 +24,6 @@ header {
   left: 0;
   width: 100%;
   z-index: 100;
-
 }
 
 header h1 {
@@ -45,7 +44,6 @@ nav {
   background-color: #073b3a;
   padding: 10px;
   box-shadow: 0 2px 2px #073b3a;
-
 }
 
 nav ul {
@@ -73,7 +71,6 @@ nav a:hover {
 /* Class visually hides the nav checkbox */
 .hidden-checkbox {
   position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
   padding: 0;
   border: 0;
   height: 1px;
@@ -449,7 +446,6 @@ footer {
   border: 1px solid whitesmoke;
   border-radius: 5px;
   transition: background-color 0.3s ease;
-  display: inline-box;
 }
 
 #social-media a {
@@ -466,7 +462,6 @@ footer {
   border: 2px solid whitesmoke;
   border-radius: 10px;
   transition: background-color 0.3s ease;
-  display: inline-box;
   padding: 10px;
 }
 
