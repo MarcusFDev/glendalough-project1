@@ -66,6 +66,7 @@ nav a {
 
 nav a:hover {
   background-color: #6bbf59;
+  color: #073b3a;
 }
 
 /* Class visually hides the nav checkbox */
@@ -101,7 +102,9 @@ nav a:hover {
 
 /* Class highlights nav button */
 .active {
-  background-color: #6bbf59;
+  background-color: #6bbf59; 
+  color: #073b3a;
+  
 }
 
 /* Main Content */
