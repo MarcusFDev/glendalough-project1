@@ -87,3 +87,27 @@ Wireframes:
 - The website's primary colors were chosen as shades of green so finding a suitable color to match and balance this out was required. The use of Whitesmoke or #F5F5F5 was chosen as a color that has a soft contrast to the greens prevalent on the site. It is not as harsh as standard white and was deemed more suitable. It is used quite often to contrast the greens, sometimes as font coloring. 
 - Light Gray or #D3D3D3 was used as a even softer contrast to the greens. It is used as background colors for large amounts of text for ease of reading while also making the vibrant colors around it 'pop' out more to the user. 
 - Finally, default Black font color was otherwise used as the main text color. It stands out from the light gray around it, directs attention to itself but not harsh with the contrast around it for the user to read.
+
+---
+# Features
+
+## Page Elements
+
+### All Web Pages
+
+### Header & Navigation Bar
+![Header and Navigational Bar image](assets/images/navbar-readme-image-1.webp)
+- The Header & Navigational bar is located on every page of the website. It was designed to be clear a simple with button links to each webpage.
+- The Header itself is a link back to the Home page when clicked.
+- Each button hightlights when hovered over with a mouse & the page the user is on is indicated by the constant highlighted button on the Navbar.
+- It is responsive to all devices.
+
+![Header and Navigational Bar image](assets/images/navbar-readme-image-2.webp)
+
+- Navigation Bar becomes hidden when viewport shrinks, becomes a dropdown button for users on Phones & Tablets to conserve screen space. 
+
+![Header and Navigational Bar dropdown image](assets/images/navbar-readme-image-3.webp)
+
+- The dropdown menu appears below the button when pressed.
+
+### Footer
