@@ -162,3 +162,12 @@ Wireframes:
 ## Additional Site Features
 
 ### 404 Error Page
+
+- Customized 404 error page for website if a page the user is attempting to find is not located. 
+- Used 404.html file and styled to match the rest of the website.
+- Provided a brief explaination to the user and provided a Return Home button so that the user may return to the Home page.
+- Return button highlights if a mouse hovers over it.
+- Added a contact support email if problem persists for the user.
+- 404 Error page is responsive to viewport and is readable and accessible to all devices.
+
+![Picture of 404 Error page](assets/images/error-readme-image.webp)
