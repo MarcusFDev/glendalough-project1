@@ -361,7 +361,7 @@ main {
 
 .subscribe-button:hover {
   background-color: #6bbf59;
-  color: whitesmoke;
+  color: #073b3a;
 }
 
 .newsletter-description {
@@ -474,6 +474,7 @@ footer {
 
 #social-media i:hover {
   background-color: #6bbf59;
+  color: #073b3a;
 }
 
 /* Small screen devices (phones, 430px and below) */
