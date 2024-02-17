@@ -12,7 +12,7 @@ The Glendalough Valley site provides relevant information, times and pictures al
 1. [UX](#ux)
    - [Goals](#goals)
      - [Visitor Goals](#visitor-goals)
-     - [Business](#buisness-goals)
+     - [Business Goals](#buisness-goals)
      - [User Stories](#user-stories)
    - [Visual Design](#visual-design)
      - [Wireframes](#wireframes)
