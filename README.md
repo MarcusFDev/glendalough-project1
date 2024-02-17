@@ -116,7 +116,7 @@ The Buisness Goals for Glendalough Valley are:
 
 ### Wireframes
 
-Wireframes:
+Wireframes: https://drive.google.com/drive/folders/1RCEqOOF0YqVNm8nMdEpNPNlHFg6NfTY9?usp=sharing
 
 ### Fonts
 ![Website Font example](assets/images/font-picture.webp)
