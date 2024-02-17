@@ -12,7 +12,7 @@ The Glendalough Valley site provides relevant information, times and pictures al
 1. [UX](#ux)
    - [Goals](#goals)
      - [Visitor Goals](#visitor-goals)
-     - [Business Goals](#buisness-goals)
+     - [Business Goals](#business-goals)
      - [User Stories](#user-stories)
    - [Visual Design](#visual-design)
      - [Wireframes](#wireframes)
@@ -93,9 +93,9 @@ The Glendalough Valley site fills these goals by:
 - Providing social media links for other park outlets.
 - Providing a newsletter users can subscribe to for updates.
 
-### Buisness Goals
+### Business Goals
 
-The Buisness Goals for Glendalough Valley are:
+The Business Goals for Glendalough Valley are:
 
 - Gain subscribers to the newsletter.
 - Interest visitors to coming to Glendalough.
